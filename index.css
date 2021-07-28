@@ -1,0 +1,121 @@
+body{
+    background-color: #181818;
+    cursor: default; /*anything on the body thing takes the cursor default.*/
+    font-family: 'Consolas', 'Arial';
+}
+
+.td0{
+    width: 100%;
+    margin-top: 25%;
+}
+
+.td0:hover{
+    background-color: cyan;
+    color: black;
+    
+}
+
+.tdtxt0:hover{
+    color: black;
+}
+
+
+.td01{
+    width: 100%;
+    height: 25px;
+}
+
+.td1{
+    width: 33.33333%
+}
+.td2{
+    width: 33.33333%
+}
+.td3{
+    width: 33.33333%
+}
+
+.td1:hover{
+    background-color: red;
+}
+.td2:hover{
+    background-color: green;
+}
+.td3:hover{
+    background-color: blue;
+}
+.td1txt:hover{
+    opacity: 50%;
+}
+.td2txt:hover{
+    opacity: 50%;
+}
+.td3txt:hover{
+    opacity: 50%;
+}
+
+
+.ghimg{
+    width: 20px;
+    padding-right: 10px;
+}
+.ghimg:hover{
+    opacity: 50%;
+}
+
+.alico{
+    width: 20px;
+    padding-right: 10px;
+}
+
+.alico:hover{
+    opacity: 50%;
+}
+
+
+.tcgico{
+    width: 20px;
+    padding-right: 10px;
+}
+
+.tcgico:hover{
+    opacity: 50%;
+}
+
+.td1lnk{
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+.tcgicolnk{
+    text-decoration: none;
+    cursor: default;
+}
+
+.td2lnk{
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+.alicolnk{
+    text-decoration: none;
+    cursor: default;
+}
+
+.td3lnk{
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+.ghimglnk{
+    text-decoration: none;
+    cursor: default;
+}
+
+.hlnk{
+    text-decoration: none;
+    cursor: default;
+}
