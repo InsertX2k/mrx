@@ -1,121 +1,240 @@
 body{
     background-color: #181818;
-    cursor: default; /*anything on the body thing takes the cursor default.*/
-    font-family: 'Consolas', 'Arial';
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-.td0{
-    width: 100%;
-    margin-top: 25%;
+.mrxpfp_div{
+    color: white;
+    border-style: none;
+    border-color: cyan;
+    width: 270px;
+    height: 275px;
+    float: left;
 }
 
-.td0:hover{
-    background-color: cyan;
-    color: black;
+.mrxpfp{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+}
+
+.mrxsociallinks_div{
+    color: white;
+    border-style: none;
+    border-color:green;
+    width: 350px;
+    height: 275px;
+    float: left;
+    margin-left: 25px;
+}
+
+.holderdiv{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 98%;
+    border-style: none;
+    border-color: orangered;
+    display: flex;
+    justify-content: center;
+}
+
+.smallicon{
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.link{
+    float: left;
+    margin-top: 9px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-left: 7px;
+}
+
+.profilebutton{
+    border-style: none;
+    border-color: pink;
+    border-width: 5px;
+    margin-top: 0px;
+}
+
+.link:hover{
+    color: orange;
+}
+
+.link:hover .smallicon{
+    transform: rotate(-45deg);
+}
+.smallicon:hover ~ .link{
+    color: orange;
+}
+.smallicon:hover{
+    transform: rotate(-45deg);
+}
+
+.profilebutton:hover .link{
+    color: orange;
+}
+.profilebutton:hover .smallicon{
+    transform: rotate(-45deg);
+}
+
+.smallicon2{
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+    float: left;
+    cursor: pointer;
     
 }
 
-.tdtxt0:hover{
-    color: black;
+.profilebutton:hover .smallicon2{
+    transform: rotate(-45deg);
 }
 
-
-.td01{
-    width: 100%;
-    height: 25px;
-}
-
-.td1{
-    width: 33.33333%
-}
-.td2{
-    width: 33.33333%
-}
-.td3{
-    width: 33.33333%
-}
-
-.td1:hover{
-    background-color: red;
-}
-.td2:hover{
-    background-color: green;
-}
-.td3:hover{
-    background-color: blue;
-}
-.td1txt:hover{
-    opacity: 50%;
-}
-.td2txt:hover{
-    opacity: 50%;
-}
-.td3txt:hover{
-    opacity: 50%;
-}
-
-
-.ghimg{
-    width: 20px;
-    padding-right: 10px;
-}
-.ghimg:hover{
-    opacity: 50%;
-}
-
-.alico{
-    width: 20px;
-    padding-right: 10px;
-}
-
-.alico:hover{
-    opacity: 50%;
-}
-
-
-.tcgico{
-    width: 20px;
-    padding-right: 10px;
-}
-
-.tcgico:hover{
-    opacity: 50%;
-}
-
-.td1lnk{
+.before_socialbuttons{
     color: white;
-    text-decoration: none;
-    cursor: default;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 3px;
 }
 
-.tcgicolnk{
-    text-decoration: none;
-    cursor: default;
+.ghlogo_small{
+    width: 32px;
+    height: 32px;
+    float: left;
+    cursor: pointer;
+}
+.ghlink{
+    float: left;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-left: 9px;
+}
+.githubprofile_button{
+    margin-top: 40px;
+    border-style: none;
+    border-color: rosybrown;
 }
 
-.td2lnk{
-    color: white;
-    text-decoration: none;
-    cursor: default;
+.githubprofile_button:hover .ghlink{
+    color: orange;
+}
+.githubprofile_button:hover .ghlogo_small{
+    transform: rotate(-45deg);
+}
+.sourceforge_button{
+    margin-top: 82px;
+    border-style: none;
+    border-color: blueviolet;
+    margin-left: 4px;
 }
 
-.alicolnk{
-    text-decoration: none;
-    cursor: default;
+.sourceforge_small{
+    width: 32px;
+    height: 32px;
+    float: left;
+    cursor: pointer;
+}
+.sourceforge_link{
+    float: left;
+    margin-top: 8px;
+    margin-left: 7px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 0px;
 }
 
-.td3lnk{
-    color: white;
-    text-decoration: none;
-    cursor: default;
+.sourceforge_button:hover .sourceforge_link{
+    color: orange;
 }
-
-.ghimglnk{
-    text-decoration: none;
-    cursor: default;
+.sourceforge_button:hover .sourceforge_small{
+    transform: rotate(-45deg);
 }
-
-.hlnk{
-    text-decoration: none;
-    cursor: default;
+.twitter_button{
+    margin-top: 127px;
+    border-style: none;
+    border-color: white;
+    margin-left: 5px;
+}
+.twitter_small{
+    width: 30px;
+    height: 22px;
+    float: left;
+    cursor: pointer;
+}
+.twitter_link{
+    float: left;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 7px;
+    margin-bottom: 0px;
+}
+.twitter_button:hover .twitter_link{
+    color: orange;
+}
+.twitter_button:hover .twitter_small{
+    transform: rotate(-45deg);
+}
+.discord_button{
+    border-style: none;
+    border-color: seagreen;
+    margin-top: 161px;
+    margin-left: 4px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.discord_small{
+    float: left;
+    width: 38px;
+    height: 28px;
+    cursor: pointer;
+}
+.discord_link{
+    float: left;
+    font-size: 18px;
+    margin-top: 3px;
+    margin-left: 2px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.discord_button:hover .discord_small{
+    transform: rotate(-45deg);
+}
+.discord_button:hover .discord_link{
+    color: orange;
+}
+.osuprofile_button{
+    border-style: none;
+    border-color: royalblue;
+    margin-top: 200px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.osu_small{
+    width: 32px;
+    height: 32px;
+    float: left;
+    cursor: pointer;
+}
+.osu_link{
+    float: left;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.osuprofile_button:hover .osu_link{
+    color: orange;
+}
+.osuprofile_button:hover .osu_small{
+    transform: rotate(-45deg);
 }
