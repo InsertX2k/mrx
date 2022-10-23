@@ -239,3 +239,26 @@ body{
 .osuprofile_button:hover .osu_small{
     transform: rotate(-45deg);
 }
+
+
+.discord_server_button{
+    border-style: none;
+    border-width: 15px;
+    border-color: cyan;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+.server_small{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    float: left;
+}
+
+.discord_server_link{
+    float: left;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 0px;
+    cursor: pointer;
+}
