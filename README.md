@@ -2,6 +2,10 @@
 **This is just a simple repository** containing the source code I wrote for my website that is named "**Mr.X's Official Website**"
 <br>
 
+## Copyrights
+**This website uses 3rd-party icons from [icons8](https://icons8.com/) and GitHub**
+<br>
+
 ## How to build? <br>
 *Building this website is not a possible task* as you won't even need to build it, as it is just a group of **HTML** and **CSS** files that needs to be hosted somewhere.
 <br>
