@@ -26,7 +26,7 @@ body{
     height: 275px;
     float: left;
     margin-left: 25px;
-    margin-top: 29px;
+    margin-top: 5px;
 }
 
 .holderdiv{
@@ -240,6 +240,33 @@ body{
     transform: rotate(-45deg);
 }
 
+.donate_button{
+    border-style: none;
+    border-color: seagreen;
+    margin-top: 197px;
+    margin-left: 2px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.coffee_small{
+    float: left;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.donation_link{
+    float: left;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+.donate_button:hover .donation_link{
+    color: orange;
+}
+.donate_button:hover .coffee_small{
+    transform: rotate(-45deg);
+}
 
 .discord_server_button{
     border-style: none;
