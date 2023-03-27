@@ -23,10 +23,12 @@ body{
     border-style: none;
     border-color:green;
     width: 350px;
-    height: 275px;
+    height: 320px;
     float: left;
     margin-left: 25px;
-    margin-top: 5px;
+    margin-top: -24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .holderdiv{
@@ -62,6 +64,7 @@ body{
     border-color: pink;
     border-width: 5px;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .link:hover{
@@ -120,8 +123,12 @@ body{
     margin-left: 9px;
 }
 .githubprofile_button{
-    margin-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
     border-style: none;
+    cursor: pointer;
     border-color: rosybrown;
 }
 
@@ -132,10 +139,11 @@ body{
     transform: rotate(-45deg);
 }
 .sourceforge_button{
-    margin-top: 82px;
+    margin-top: 10px;
     border-style: none;
     border-color: blueviolet;
     margin-left: 4px;
+    margin-bottom: 0px;
 }
 
 .sourceforge_small{
@@ -160,10 +168,11 @@ body{
     transform: rotate(-45deg);
 }
 .twitter_button{
-    margin-top: 127px;
+    margin-top: 13px;
     border-style: none;
     border-color: white;
     margin-left: 5px;
+    margin-bottom: 0px;
 }
 .twitter_small{
     width: 30px;
@@ -188,7 +197,7 @@ body{
 .discord_button{
     border-style: none;
     border-color: seagreen;
-    margin-top: 161px;
+    margin-top: -1px;
     margin-left: 4px;
     cursor: pointer;
     margin-bottom: 0px;
@@ -216,9 +225,10 @@ body{
 .osuprofile_button{
     border-style: none;
     border-color: royalblue;
-    margin-top: 200px;
+    margin-top: 10px;
     margin-left: 5px;
     cursor: pointer;
+    margin-bottom: 0px;
 }
 .osu_small{
     width: 32px;
@@ -243,7 +253,7 @@ body{
 .donate_button{
     border-style: none;
     border-color: seagreen;
-    margin-top: 197px;
+    margin-top: 10px;
     margin-left: 2px;
     cursor: pointer;
     margin-bottom: 0px;
@@ -288,4 +298,35 @@ body{
     margin-left: 50px;
     margin-top: 0px;
     cursor: pointer;
+}
+.megawake_button{
+    border-style: none;
+    border-width: 15px;
+    border-color: cyan;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 30px;
+}
+.megawake_button:hover .megawakelink{
+    color: orange;
+}
+.megawake_button:hover .megawake_small{
+    transform: rotate(-45deg);
+}
+.megawake_small{
+    width: 32px;
+    height: 24px;
+    float: left;
+    cursor: pointer;
+}
+.megawakelink{
+    float: left;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+/* applying overflow: visible to all div elements in this file */
+div{
+    overflow: visible;
 }
