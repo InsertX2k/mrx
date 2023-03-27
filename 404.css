@@ -1,0 +1,36 @@
+body{
+    background-color: #181818;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.divider{
+    color: white;
+}
+.footer {
+    color: white;
+    font-size: 13px;
+}
+.header {
+    color: white;
+    font-size: 23px;
+}
+.text0{
+    color: white;
+    font-size: 18px;
+}
+.pagesul {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    display: inline-block;
+}
+a{
+    color: cyan;
+    font-size: 16px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+li:hover{
+    list-style: square;
+}
